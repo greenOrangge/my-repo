@@ -1,0 +1,30 @@
+.Navbar {
+  /* width: 50px; */
+  margin: 0px;
+  position: fixed;
+  /* position: absolute; */
+  width: 4rem;
+  /* height: 100vh; */
+  height: 100%;
+  background-image: linear-gradient(#e2e580, #e5619d);
+  /* overflow-y: 150px; */
+  /* top: 0; */
+  /* bottom: 0; */
+}
+
+.logo {
+  padding-top: 15%;
+  text-align: center;
+}
+
+/* For Responsiveness  */
+@media screen and (max-width: 500px) {
+  /* add for hamburger
+  .Navbar {
+    height: 90px;
+    position: absolute;
+  }
+  .logo {
+    padding-top: 35%;
+  } */
+}

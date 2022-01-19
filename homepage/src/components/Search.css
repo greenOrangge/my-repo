@@ -1,0 +1,146 @@
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans); */
+
+body {
+  /* font-family: "Open Sans", sans-serif; */
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00b4cc;
+  border-right: none;
+  padding: 5px;
+  height: 50px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.searchTerm:focus {
+  color: #00b4cc;
+}
+
+.searchButton {
+  width: 40px;
+  height: 50px;
+  border: 1px solid #00b4cc;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+  /* background-color: #9DBFAF; */
+  background: white;
+  position: relative; /* width: 100%; */
+  margin-left: 4rem;
+  padding: 20px 450px 20px 85px;
+  /* width: 100%; */
+  /* top: 10%; */
+  /* left: 50%; */
+  /* -ms-transform: translate(-50%, -50%); */
+  /* transform: translate(-50%, -50%); */
+  /* height: 200px; */
+  /* z-index: 10; */
+  /* padding-top: 30px; */
+  /* margin-right: 2rem; */
+  /* padding-bottom: 30px; */
+}
+
+.icon {
+  position: relative;
+  align-items: center;
+}
+
+#login:hover {
+  letter-spacing: 0.4em;
+  background-color: #c56d25;
+}
+
+#login {
+  color: white;
+  font-weight: bolder;
+}
+#login {
+  position: absolute;
+  height: 3em;
+  margin-left: 75%;
+  top: 25%;
+  /* background-color: #feb1c0; */
+  background-color: #eb7d22;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+/* for responsiveness */
+
+/* @media screen and (max-width: 500px) { */
+@media screen and (max-width: 780px) {
+  .searchTerm {
+    visibility: hidden;
+  }
+
+  .wrap {
+    /* padding-top: 3%; */
+    padding-left: 5%;
+    /* padding-bottom: 2%; */
+  }
+
+  .searchButton {
+    /* width: 40px; */
+    /* height: 50px; */
+    border: 1px solid #00b4cc;
+    background: #00b4cc;
+    text-align: center;
+    color: #fff;
+    /* border-radius: 0 5px 5px 0; */
+    border-radius: 5px;
+    cursor: pointer;
+    /* font-size: 20px; */
+    /* padding-left: 30px; */
+    padding-right: 45px;
+  }
+
+  .icon {
+    position: relative;
+    align-items: center;
+  }
+
+  #login:hover {
+    letter-spacing: 0.4em;
+    background-color: #c56d25;
+    /* cursor: pointer; */
+  }
+
+  #login {
+    color: white;
+    font-weight: bolder;
+  }
+  #login {
+    align-items: center;
+    position: absolute;
+    height: 3em;
+    margin-left: 40%;
+    top: 25%;
+    /* background-color: #feb1c0; */
+    background-color: #eb7d22;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
